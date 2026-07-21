@@ -1,0 +1,272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A100000001 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000001 /* main.swift */; };
+		A100000002 /* MiniTTSDemoBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = A200000003 /* MiniTTSDemoBridge.mm */; };
+		A100000003 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A200000010 /* Foundation.framework */; };
+		A100000004 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A200000011 /* Metal.framework */; };
+		A100000005 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A200000012 /* MetalKit.framework */; };
+		A100000006 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A200000013 /* Accelerate.framework */; };
+		A100000007 /* libAudioCpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A200000014 /* libAudioCpp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A200000001 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A200000002 /* MiniTTSDemoBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiniTTSDemoBridge.h; sourceTree = "<group>"; };
+		A200000003 /* MiniTTSDemoBridge.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MiniTTSDemoBridge.mm; sourceTree = "<group>"; };
+		A200000004 /* Qwen3TTSDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Qwen3TTSDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		A200000005 /* Qwen3TTSDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Qwen3TTSDemo; sourceTree = BUILT_PRODUCTS_DIR; };
+		A200000010 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A200000011 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		A200000012 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+		A200000013 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		A200000014 /* libAudioCpp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAudioCpp.a; path = "/tmp/audio-cpp-clone/build/xcframework/artifacts/libAudioCpp.a"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A300000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A100000003 /* Foundation.framework in Frameworks */,
+				A100000004 /* Metal.framework in Frameworks */,
+				A100000005 /* MetalKit.framework in Frameworks */,
+				A100000006 /* Accelerate.framework in Frameworks */,
+				A100000007 /* libAudioCpp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A400000001 = {
+			isa = PBXGroup;
+			children = (
+				A400000002 /* Qwen3TTSDemo */,
+				A400000003 /* Frameworks */,
+				A400000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A400000002 /* Qwen3TTSDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A200000001 /* main.swift */,
+				A200000002 /* MiniTTSDemoBridge.h */,
+				A200000003 /* MiniTTSDemoBridge.mm */,
+				A200000004 /* Qwen3TTSDemo-Bridging-Header.h */,
+			);
+			path = Qwen3TTSDemo;
+			sourceTree = "<group>";
+		};
+		A400000003 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A200000010 /* Foundation.framework */,
+				A200000011 /* Metal.framework */,
+				A200000012 /* MetalKit.framework */,
+				A200000013 /* Accelerate.framework */,
+				A200000014 /* libAudioCpp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A400000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A200000005 /* Qwen3TTSDemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A500000001 /* Qwen3TTSDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A700000002 /* Build configuration list for PBXNativeTarget "Qwen3TTSDemo" */;
+			buildPhases = (
+				A300000002 /* Sources */,
+				A300000001 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Qwen3TTSDemo;
+			productName = Qwen3TTSDemo;
+			productReference = A200000005 /* Qwen3TTSDemo */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A600000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = A700000001 /* Build configuration list for PBXProject "Qwen3TTSDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A400000001;
+			productRefGroup = A400000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A500000001 /* Qwen3TTSDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A300000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A100000001 /* main.swift in Sources */,
+				A100000002 /* MiniTTSDemoBridge.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A800000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A800000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A800000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				HEADER_SEARCH_PATHS = (
+					"/tmp/audio-cpp-clone/build/xcframework/artifacts/Headers",
+					"/tmp/audio-cpp-clone/build/xcframework/artifacts/Headers/**",
+					"/tmp/audio-cpp-clone/external/ggml/include",
+				);
+				LIBRARY_SEARCH_PATHS = "/tmp/audio-cpp-clone/build/xcframework/artifacts";
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-lobjc",
+					"-lAudioCpp",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Qwen3TTSDemo;
+				PRODUCT_NAME = Qwen3TTSDemo;
+				SWIFT_OBJC_BRIDGING_HEADER = "Qwen3TTSDemo/Qwen3TTSDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A800000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				HEADER_SEARCH_PATHS = (
+					"/tmp/audio-cpp-clone/build/xcframework/artifacts/Headers",
+					"/tmp/audio-cpp-clone/build/xcframework/artifacts/Headers/**",
+					"/tmp/audio-cpp-clone/external/ggml/include",
+				);
+				LIBRARY_SEARCH_PATHS = "/tmp/audio-cpp-clone/build/xcframework/artifacts";
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-lobjc",
+					"-lAudioCpp",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Qwen3TTSDemo;
+				PRODUCT_NAME = Qwen3TTSDemo;
+				SWIFT_OBJC_BRIDGING_HEADER = "Qwen3TTSDemo/Qwen3TTSDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A700000001 /* Build configuration list for PBXProject "Qwen3TTSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A800000001 /* Debug */,
+				A800000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A700000002 /* Build configuration list for PBXNativeTarget "Qwen3TTSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A800000003 /* Debug */,
+				A800000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = A600000001 /* Project object */;
+}

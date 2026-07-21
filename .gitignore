@@ -1,0 +1,43 @@
+# Xcode build
+build/
+DerivedData/
+
+# Xcode user data
+*.xcuserdata
+xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# Xcode workspace state
+*.mode1v3
+*.mode2v3
+*.pbxuser
+*.perspectivev3
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+
+# Generated audio output
+*.wav
+*.mp3
+!assets/**/*.wav
+
+# CocoaPods
+Pods/
+
+# SwiftPM
+.swiftpm/
+.build/
+Package.resolved
+
+# IDE
+.idea/
+.vscode/
+
+# Build artifacts
+*.o
+*.d
+*.dSYM
